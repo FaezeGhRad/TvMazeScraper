@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMaze.Scraper.API", "TvMaze.Scraper.API\TvMaze.Scraper.API.csproj", "{13391454-59D5-458B-8C3A-B30626398337}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8D76549D-8A9D-4AAD-819C-E8904286720D}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\Directory.Build.props = ..\Directory.Build.props
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMaze.Scraper.Abstractions", "TvMaze.Scraper.Abstractions\TvMaze.Scraper.Abstractions.csproj", "{F8E29E41-381F-4D40-B8CE-B8A5A08044A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TvMaze.Scraper.Implementations", "TvMaze.Scraper.Implementations\TvMaze.Scraper.Implementations.csproj", "{F5AAE2DD-E763-4020-8B39-C1832B127F2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13391454-59D5-458B-8C3A-B30626398337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13391454-59D5-458B-8C3A-B30626398337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13391454-59D5-458B-8C3A-B30626398337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13391454-59D5-458B-8C3A-B30626398337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E29E41-381F-4D40-B8CE-B8A5A08044A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E29E41-381F-4D40-B8CE-B8A5A08044A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E29E41-381F-4D40-B8CE-B8A5A08044A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E29E41-381F-4D40-B8CE-B8A5A08044A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5AAE2DD-E763-4020-8B39-C1832B127F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AAE2DD-E763-4020-8B39-C1832B127F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AAE2DD-E763-4020-8B39-C1832B127F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AAE2DD-E763-4020-8B39-C1832B127F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E14E241-47D4-4B5D-B87D-891C17CA145F}
+	EndGlobalSection
+EndGlobal

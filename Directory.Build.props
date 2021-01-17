@@ -1,0 +1,27 @@
+<Project>
+	<PropertyGroup>
+		<TargetFrameworkNetCoreAppVersion>netcoreapp3.1</TargetFrameworkNetCoreAppVersion>
+		
+		<TargetFrameworkNetStandardVersion>netstandard2.0</TargetFrameworkNetStandardVersion>
+
+		<!--System.ComponentModel.Annotations-->
+		<SystemComponentModelAnnotationsPackageVersion>5.0.0</SystemComponentModelAnnotationsPackageVersion>
+
+		<!-- Microsoft.Extensions.* -->
+		<MicrosoftExtensionsPackageVersion>3.1.10</MicrosoftExtensionsPackageVersion>
+
+		<!-- Newtonsoft -->
+		<NewtonsoftPackageVersion>12.0.3</NewtonsoftPackageVersion>
+
+		<!-- AutoMapper -->
+		<AutoMapperExtensionsPackageVersion>8.1.0</AutoMapperExtensionsPackageVersion>
+
+		<!--Microsoft.EntityFrameworkCore-->
+		<MicrosoftEntityFrameworkCoreToolsPackageVersion>3.1.10</MicrosoftEntityFrameworkCoreToolsPackageVersion>
+
+		<!--Microsoft.EntityFrameworkCore.Sqlite-->
+		<MicrosoftEntityFrameworkCoreSqlitePackageVersion>3.1.10</MicrosoftEntityFrameworkCoreSqlitePackageVersion>
+
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+</Project>
